@@ -13,7 +13,28 @@ html {
 
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
+  margin: 0
+}
+
+img {
+  display: block;
+  width: 100%
+}
+
+main {
+
+}
+
+header {
+
+}
+
+h1 img {
 
 }
 
@@ -21,10 +42,75 @@ h1 {
 
 }
 
+nav ul {
+
+}
+
+nav {
+
+}
+
+nav li {
+
+}
+
+nav :link {
+
+}
+
+nav :hover {
+
+}
+
+p {
+
+}
+
 h2 {
 
 }
 
-h3{
+section strong {
+
+}
+
+section ul {
+
+}
+
+section li {
+
+}
+
+h3 {
+
+}
+
+h3 + img {
+
+}
+
+div {
+
+
+}
+
+div::after {
+
+}
+
+div img {
+
+}
+
+footer {
+
+}
+
+footer p {
+
+}
+
+footer :link {
 
 }
