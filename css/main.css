@@ -10,7 +10,10 @@
     Corner-radii: 6px, 1em 0 0 1em
 */
 html {
-
+  font-family: Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -19,6 +22,7 @@ html {
 
 body {
   margin: 0
+  background-color: #bebebe;
 }
 
 img {
@@ -27,43 +31,72 @@ img {
 }
 
 main {
-
+  margin: 1rem;
 }
 
 header {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 h1 img {
-
+  width: 80%;
+  margin-left: 1.2rem;
 }
 
 h1 {
-
+  margin: 0;
+  grid-row: 1;
+  grid-column: 2;
+  z-index: 1;
 }
 
 nav ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bd027d;
+  padding: 1rem;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.25rem;
+  list-style: none;
+  margin: 0;
 
 }
 
 nav {
-
+  grid-row: 1;
+  grid-column: 1 / -1;
 }
 
 nav li {
-
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .34rem .8rem;
+  border-style: solid;
+  border-width: .5px;
+  border-radius: 6px;
+  margin: .8rem 0;
+  margin-bottom: .9rem;
 }
 
 nav :link {
-
+  color: #fff;
+  text-decoration: none;
 }
 
 nav :hover {
-
+  border-color: #960062;
 }
 
 p {
-
+  color: #323232;
+  margin-top: 1.3rem;
+  font-weight: lighter;
+  border-bottom-style: solid;
+  border-width: .2px;
+  border-color: #afafaf;
+  padding-bottom: 1.4rem;
 }
 
 h2 {
